@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stocks Profit & Loss Calculator</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <form class="main">
+        <h1>Profit and Loss Calculator</h1>
+        <div class="input-container">
+            <label for="cost-price">Cost Price
+          <input
+            type="number"
+            class="cost-price"
+            placeholder="Enter Cost Price"
+            required
+        /></label>
+        </div>
+        <div class="input-container">
+            <label for="stocks-quantity">Quantity
+          <input
+            type="number"
+            class="stocks-quantity"
+            placeholder="Enter the No. of Stocks"
+            required
+        /></label>
+        </div>
+        <div class="input-container">
+            <label for="current-price">Current Price
+          <input
+            type="number"
+            class="current-price"
+            placeholder="Enter Current Price"
+            required
+        /></label>
+        </div>
+        <button type="submit" id="submit-btn">Tell me!!</button>
+        <div id="output-box"></div>
+    </form>
+    <script src="/app.js"></script>
+</body>
+
+</html>
