@@ -13,12 +13,18 @@
     justify-content: center;
 }
 
-.main h1 {
+body {
+    background-color: #000000;
+}
+
+h1 {
     margin-bottom: 2rem;
+    color: #6253e1;
 }
 
 .input-container {
     margin-bottom: 1rem;
+    color: #6253e1;
 }
 
 .input-container label {
@@ -40,4 +46,46 @@
     border-radius: 1rem;
     outline: none;
     margin-bottom: 1rem;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+#output-box {
+    margin: 1rem;
+    padding: 0.2rem;
+    background-color: #ffffff;
+    color: 000000;
+    border-radius: 0.4rem;
+    width: auto;
+    height: auto;
 }
