@@ -84,8 +84,8 @@ h1 {
     margin: 1rem;
     padding: 0.2rem;
     background-color: #ffffff;
-    color: 000000;
+    color: #000000;
     border-radius: 0.4rem;
-    width: auto;
-    height: auto;
+    width: 20rem;
+    height: 5rem;
 }

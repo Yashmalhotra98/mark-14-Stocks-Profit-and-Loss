@@ -30,9 +30,9 @@ function calculateProfitAndLoss(initial, quantity, current) {
         var netLoss = (loss * quantity);
         var lossPercentage = ((loss / initial) * 100).toFixed(2);
         outputBox.style.color = 'red';
-        showOutput(`Yay the loss is ${netLoss} and the loss percent is ${lossPercentage}%`);
+        showOutput(`Oh No! 😳 the loss is ${netLoss} and the loss percent is ${lossPercentage}%`);
     } else {
-        showOutput(`No pain No gain`);
+        showOutput("Better Luck Next Time!");
     }
 
 
